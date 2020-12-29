@@ -1,10 +1,10 @@
 # TokenControl
 
-This is a simple microservice that expose a few methods in order to serve as an exemple and reference.
+This is a simple microservice that exposes a few methods in order to serve as an example and reference.
 
 ### CardControl 
-    => add a new card to the user id. If the card alread exists in the database, it will update the datetime.
-    It will retunr a Json with the registration date, the card id and the token.
+    => add a new card to the user id. If the card already exists in the database, it will update the DateTime.
+    It will return a JSON with the registration date, the card id, and the token.
 
 ### ValidateToken 
     => check if the token is valid (numbem and time)
@@ -51,4 +51,4 @@ To test the application you can use swagger.
 
 ## Nunit
 
-I also used UNIT to meke some unit test in the application. They are available in the 'TokenControl.Tests' project.
+I also used the NUNIT to make some unit test in the application. They are available in the 'TokenControl.Tests' project.
